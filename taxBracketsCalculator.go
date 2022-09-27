@@ -1,5 +1,4 @@
 // will break if incoem is above max float64 and maybe other edge cases
-
 package main
 
 import (
@@ -11,6 +10,7 @@ func main() {
 	// income := 20000.
 	maxIncome := 10000000.
 	incremIncome := 15000.
+	//tax bracket from this source: https://taxfoundation.org/2022-tax-brackets/
 	brackets := []struct {
 		min     float64
 		max     float64
